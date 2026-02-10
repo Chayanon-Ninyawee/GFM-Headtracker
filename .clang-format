@@ -1,0 +1,56 @@
+# clang-format version 20
+
+# Indentation settings
+UseTab: false
+IndentWidth: 4
+IndentCaseLabels: false
+
+# Braces and function formatting
+BreakBeforeBraces: Custom
+BraceWrapping:
+  AfterCaseLabel: false
+  AfterClass: true
+  AfterControlStatement: MultiLine
+  AfterEnum: true
+  AfterFunction: false
+  AfterNamespace: true
+  AfterObjCDeclaration: false
+  AfterStruct: false
+  AfterUnion: false
+  AfterExternBlock: true
+  BeforeCatch: false
+  BeforeElse: false
+  BeforeLambdaBody: false
+  BeforeWhile: false
+  IndentBraces: false
+  SplitEmptyFunction: false
+  SplitEmptyRecord: false
+  SplitEmptyNamespace: false
+
+NamespaceIndentation: Inner
+WrapNamespaceBodyWithEmptyLines: Always
+AllowShortFunctionsOnASingleLine: Empty
+AllowShortIfStatementsOnASingleLine: WithoutElse
+AllowShortLambdasOnASingleLine: All
+AllowShortCaseExpressionOnASingleLine: true
+AlignAfterOpenBracket: BlockIndent
+AllowAllArgumentsOnNextLine: false
+BinPackArguments: false
+BinPackParameters: OnePerLine
+AllowAllParametersOfDeclarationOnNextLine: false
+PenaltyBreakBeforeFirstCallParameter: 0
+PenaltyReturnTypeOnItsOwnLine: 1000
+
+# Formatting
+BreakConstructorInitializers: BeforeComma
+PackConstructorInitializers: Never
+BreakTemplateDeclarations: Yes
+
+# Alignment and spacing
+SpacesBeforeTrailingComments: 2
+AccessModifierOffset: -4
+AlignEscapedNewlines: Left
+AlignOperands: Align
+
+# Line breaking and wrapping
+ColumnLimit: 140
