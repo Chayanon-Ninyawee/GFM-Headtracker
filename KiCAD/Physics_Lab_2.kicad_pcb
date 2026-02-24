@@ -216,6 +216,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C165948"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "807037d7-9a95-4318-8727-b431d8e85c3d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "USB*")
 		(path "/70e00a69-1d95-42ba-af3d-a143cbbe5e6b")
 		(sheetname "/")
@@ -403,7 +415,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "TH1"
-			(at 0.01 1.75 180)
+			(at 0.01 1.75 0)
 			(layer "F.SilkS")
 			(uuid "fd2a2f72-4b1e-42af-b42a-384bba60b220")
 			(effects
@@ -441,6 +453,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "188fdfae-081f-44a2-8fd7-51d8bc05739f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C25531"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "296a4619-2ef2-43e1-9b37-2bf6e881940c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -633,7 +657,7 @@
 			)
 		)
 		(fp_text user "BNO085"
-			(at 4.2 -1.9 270)
+			(at 11.2 -3.5 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "2faccea3-c1bf-4d93-803a-f6a548383c0b")
@@ -993,6 +1017,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C100158"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "8d0d09a5-28ac-4462-a77c-d7dc0678c2e7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/245307e4-c39e-4ec5-b406-d0c566602ec2")
 		(sheetname "/")
@@ -1121,6 +1157,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3edd4277-3313-48eb-a3c4-bb2675962a88")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C1779"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "45611f8c-f4ea-4c5e-999b-df058ee2b2a8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1262,6 +1310,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f8d1c5d0-4d71-4461-a9d8-e42c2ed109fc")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C1713"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "5423616f-2bb7-4276-9358-14ee3f644d75")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1799,6 +1859,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ce3de511-e268-4262-ba82-274cf584a089")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C185603"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "30b83162-3041-4512-aaaf-660d3866ff33")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2803,7 +2875,7 @@
 			(at -9.81 -26.61 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "aeff13b4-466a-44f9-92da-8041a54c205d")
+			(uuid "223a7240-a09d-4ae5-9906-980a86270539")
 			(effects
 				(font
 					(size 1 1)
@@ -2816,7 +2888,7 @@
 			(at 0 27.94 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "0c04095d-677e-480e-ac64-dd8e8be7aeba")
+			(uuid "a4ae99c2-4875-49a2-afc7-514f89c782c6")
 			(effects
 				(font
 					(size 1 1)
@@ -2828,7 +2900,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "24c2fbdb-de9e-4c09-ab41-eb5885951577")
+			(uuid "b7906bb1-db26-40d8-91dd-ce974a4ed20d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2840,7 +2912,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f52e5ce9-fb8a-4085-9318-e750355cb514")
+			(uuid "d51dfdf3-9434-4a3e-a8bc-6a205597ef1f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2852,7 +2924,7 @@
 		(path "/20dc934d-1f96-41ed-86ad-58c636123ccc")
 		(sheetname "/")
 		(sheetfile "Physics_Lab_2.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -10.61 -23.07)
 			(end -11.09 -23.07)
@@ -4986,6 +5058,19 @@
 		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "2a39db3c-46b5-4379-84bc-2b31f44063aa")
+	)
+	(gr_text "JLCJLCJLCJLC"
+		(at 107.5 105 90)
+		(layer "F.Cu")
+		(uuid "18234824-2dfd-4f48-bfd0-48e5a7312e81")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
 	)
 	(segment
 		(start 109.33 77.33)
