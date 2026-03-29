@@ -15,11 +15,12 @@ add_subdirectory(external/BNO08x_Pico_Library)
 
 add_subdirectory(src/modules/controllers/bno085)
 
-add_executable(gfm_pico src/main.cpp)
-target_link_libraries(gfm_pico pico_stdlib bno085_controller)
+add_executable(gfm_pico src/main.cpp src/usb_descriptors.c)
+target_link_libraries(gfm_pico pico_stdlib bno085_controller tinyusb_device tinyusb_board)
+target_include_directories(gfm_pico PRIVATE src/)
 
-pico_enable_stdio_usb(gfm_pico 1)
-pico_enable_stdio_uart(gfm_pico 0)
+pico_enable_stdio_usb(gfm_pico 0)
+pico_enable_stdio_uart(gfm_pico 1)
 
 # create map/bin/hex/uf2 file in addition to ELF.
 pico_add_extra_outputs(gfm_pico)
