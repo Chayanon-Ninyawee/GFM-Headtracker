@@ -26,7 +26,7 @@ static int16_t map_axis(float deg) {
 
 int main() {
     stdio_init_all();
-    sleep_ms(2000);
+    sleep_ms(4000);
 
     // ---- USB init ----
     tusb_init();
@@ -36,7 +36,6 @@ int main() {
 
     if (!imu.begin()) {
         while (1) {
-            printf("IMU init failed\n");
             sleep_ms(1000);
         }
     }
@@ -68,16 +67,16 @@ int main() {
         if (imu.update(accel, euler)) {
 
             if (tud_hid_ready()) {
-                int8_t x = map_axis(euler.r);  // roll
-                int8_t y = map_axis(euler.p);  // pitch
-                int8_t z = map_axis(euler.h);  // yaw
+                int8_t r = map_axis(euler.r);  // roll
+                int8_t p = map_axis(euler.p);  // pitch
+                int8_t h = map_axis(euler.h);  // yaw
 
                 tud_hid_gamepad_report(
                     0,  // report id
 
-                    x,  // X
-                    y,  // Y
-                    z,  // Z
+                    h,  // X
+                    p,  // Y
+                    0,  // Z
                     0,  // Rz
 
                     0,  // Rx
